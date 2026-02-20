@@ -1,0 +1,50 @@
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.main button {
+  padding: 10px;
+}
+
+.input-bar{
+  padding:  10px;
+}
+
+
+/*
+<div className="header">
+  <h1>Metric/Imperial Unit Conversion</h1>
+  <div className="main">
+    <input 
+      type="text"
+      id="input-box"
+      value={inputValue}
+      onChange={(e) => {
+        const val = e.target.value;
+        // If input is a number check
+        if(val === "" || !isNaN(val)){
+          setInputValue(val)
+        }
+      }}
+    />
+    <p>to</p>
+    <select id="unit-select">
+      <option value="metre">Metre</option>
+      <option value="kilometre">Kilometre</option>
+      <option value="centimetre">Centimetre</option>
+      <option value="millimetre">Millimetre</option>
+      <option value="micrometre">Micrometre</option>
+      <option value="nanometre">Nanometre</option>
+      <option value="inch">Inch</option>
+      <option value="foot">Foot</option>
+      <option value="mile">Mile</option>
+      <option value="yard">Yard</option>
+    </select>
+    <button id="convert-btn" onClick={convertLogic}>Convert</button>
+  </div>
+</div>
+*/
