@@ -1,7 +1,7 @@
-function DropDown(){
+function DropDown({value, onChange}){
     return (
         <>
-            <select id="unit-select" className="input-bar">
+            <select id="unit-select" className="input-bar" onChange={onChange} value={value}>
                 <option value="metre">Metre</option>
                 <option value="kilometre">Kilometre</option>
                 <option value="centimetre">Centimetre</option>
